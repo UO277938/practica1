@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>SEW.HTML4</title>
+
+    <meta name="author" content="Fernando Jose Gonzalez Sierra" />
+    <meta name="description" content="Desarrollo de como es la programacion en Rust." />
+    <meta name="keywords" content="Rust, Lenguaje de Programacion, Lenguaje Rust, Programacion" />
+    <meta name=" viewport " content="width=device-width, initial-scale=1.0 " />
+
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <nav>
+        <a href="index.html" accesskey="L" tabindex="1"> Indice</a>
+        <a href="historiaRust.html" accesskey="H" tabindex="2">Historia Rust</a>
+        <a href="proyectos.html" accesskey="P" tabindex="3"> Proyectos de Rust</a>
+        <a href="programacion.html" accesskey="R" tabindex="4"> Programacion en Rust</a>
+    </nav>
+
+    <header>
+        <img src="multimedia/imagenes/logoRust.png" alt="Logo Rust" />
+        <h1>Lenguaje Rust</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2> Programacion en Rust</h2>
+            <p>Rust es un lenguaje de programación desarrollado por los ingenieros de mozila. Podríamos catalogarlo como un lenguaje muy nuevo; Estamos hablando que la versión 1.0 estuvo disponible a principios del 2015; Actualmente estamos en la versión
+                1.32. Al igual que C , Java o C++, Rust es un lenguaje compilado. Rust está diseñado para desarrollar software de sistemas, donde la interacción con el usuario es practicamente nula; Excelente para aplicaciones con el modelo cliente-servidor
+                o para cosas más internas en nuestra empresa. Uno que otro demonio por allí. Algo interesante de Rust es que actualmente se están desarrollando dos sistemas operativos con dicho lenguaje. Rust tiene una sintaxis muy parecida a la de C
+                y C++.
+            </p>
+
+            <!--Contenedor de imagenes que nos permite adaptar segun tamaños-->
+            <picture>
+                <!--Si maximo de pixeles de la pantalla saca foto adaptada-->
+                <source media="(max-width:799px)" srcset="multimedia/imagenes/programaRustAdaptado.PNG">
+                <source media="(min-width:800px)" srcset="multimedia/imagenes/programaRust.PNG">
+                <img src="multimedia/imagenes/programaRust.PNG" alt="Ejemplo de una funcion en Rust">
+            </picture>
+
+
+            <p> Rust no cuenta con un recolector de basura. Esto quiere decir que somos nosotros los desarrolladores quienes debemos de estar al pendiente del uso de memoria; Pero no nos preocupemos, no estamos solos en esta tarea. Rust literalmente nos hace
+                escribir código de la manera correcta. Si algo está mal (Declarar una variable y no usarla, acceder a variables fuera de su contexto etc..) Rust nos lo indicará en al momento de compilar el proyecto.</p>
+            <p> Pocos son los lenguajes que nos permiten trabajar directamente con nuestro procesador y asignar tareas a realizar. Con Rust, podemos hacer esto de una forma segura. La creación de Threads, sincronización y acceso a datos concurrentes es posible
+                mediante el uso de librerías estándares (Rust viene con baterías incluidas).</p>
+        </section>
+        <section>
+            <h2> Opinion sobre la programacion en Rust:</h2>
+            <form>
+                <p><label>Nombre: <input type=text placeholder="Nombre aquí" required></label></p>
+                <p><label>Correo electronico: <input type=email></label></p>
+                <p><label>Contraseña: <input type=password></label></p>
+                <fieldset>
+                    <legend> Lenguajes Favoritos </legend>
+                    <p><label for="java"> <input type=checkbox id="java"> Java </label></p>
+                    <p><label for="python"> <input type=checkbox id="python"> Python </label></p>
+                    <p><label for="typescript"> <input type=checkbox  id="typescript"> TypeScript </label></p>
+                    <p><label for="rust"> <input type=checkbox id="rust"> Rust </label></p>
+                    <p><label for="c++"> <input type=checkbox id="c++"> C++ </label></p>
+                    <p><label for="c#"> <input type=checkbox id="c#"> C# </label></p>
+                </fieldset>
+                <fieldset>
+                    <legend> Sintaxis parecida a C y C++ </legend>
+                    <p><label for="no"><input type=radio id="no">No me gusta</label></p>
+                    <p><label for="indiferente"> <input type=radio id="indiferente"> Me es indiferente </label></p>
+                    <p><label for="encanta"> <input type=radio id="encanta"> Me encanta </label></p>
+                </fieldset>
+                <p><label>Fecha: <input type=date></label></p>
+                <p><label><input type=submit value="Enviar"></label></p>
+                <p><label><input type=reset value="Borrar"></label></p>
+
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <p> Después de 1.0, las versiones de puntos estables se entregan cada seis semanas, mientras que las funciones se desarrollan en Rust todas las noches y luego se prueban con versiones alfa y beta que duran seis semanas.</p>
+        <p> Junto con la escritura estática convencional, antes de la versión 0.4, Rust también admitía typestates. El sistema typestate modeló aserciones antes y después de las sentencias del programa, mediante el uso de una checksentencia especial. Las discrepancias
+            se pueden descubrir en el momento de la compilación, en lugar de cuando se ejecuta un programa, como podría ser el caso de las aserciones en código C o C ++. El concepto typestate no era exclusivo de Rust, ya que se introdujo por primera vez en
+            el lenguaje NIL. Los typestates se eliminaron porque en la práctica se usaban poco, aunque la misma función aún se puede lograr con un patrón de marca.
+        </p>
+        <p>El estilo del sistema de objetos cambió considerablemente en las versiones 0.2, 0.3 y 0.4 de Rust. La versión 0.2 introdujo clases por primera vez, y la versión 0.3 agregó varias características, incluidos destructores y polimorfismo mediante el uso
+            de interfaces. En Rust 0.4, se agregaron rasgos como un medio para proporcionar herencia; las interfaces se unificaron con rasgos y se eliminaron como una característica separada. Las clases también se eliminaron, reemplazadas por una combinación
+            de implementaciones y tipos estructurados.</p>
+    
+        <p> Comenzando en Rust 0.9 y terminando en Rust 0.11, Rust tenía dos tipos de punteros incorporados: ~y @, simplificando el modelo de memoria central. Reimplementó esos tipos de puntero en la biblioteca estándar como Boxy (ahora eliminado) Gc.</p>
+            </aside>
+
+    <!-- la carpeta de recursos gráficos "images " debe estar en el misma carpeta del archivo -->
+    <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <footer>
+        <img src="multimedia/imagenes/HTML5.png" alt=" HTML5 Válido! " />
+        <img src="multimedia/imagenes/CSS3.png" alt="CSS Válido! " />
+    </footer>
+</body>
+
+</html>

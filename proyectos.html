@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>SEW.HTML2</title>
+
+    <!-- Meta datos -->
+    <meta name="author" content="Fernando Jose Gonzalez Sierra" />
+    <meta name="description" content="Segundo html de Lenguaje Rust, contiene los proyectos." />
+    <meta name="keywords" content="Rust, Lenguaje de Programacion, Lenguaje Rust, Proyectos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <nav>
+        <a href="index.html" accesskey="L" tabindex="1"> Indice</a>
+        <a href="historiaRust.html" accesskey="H" tabindex="2">Historia Rust</a>
+        <a href="proyectos.html" accesskey="P" tabindex="3"> Proyectos de Rust</a>
+        <a href="programacion.html" accesskey="R" tabindex="4"> Programacion en Rust</a>
+    </nav>
+
+    <header>
+        <img src="multimedia/imagenes/logoRust.png" alt="Logo Rust" />
+        <h1>Lenguaje Rust</h1>
+    </header>
+    <main>
+        <p> Rust permite la creación de interfaces gráficas mediante las APIs nativas de la plataforma anfitriona, esto gracias a que tiene características de un lenguaje de bajo nivel. Sin embargo, esta ruta de desarrollo puede llegar a generar dificultades
+            en proyectos que planten la admision de múltiples plataformas.</p>
+        <section>
+            <h2> Interfaces Graficas</h2>
+            <p> Actualmente existen múltiples desarrollos para crear GUIs en Rust, algunos permiten la creación de la interfaz junto a Electron o haciendo uso de HTML, algunos otros, suministran bibliotecas nativas para el lenguaje, pero todavía se encuentran
+                en un estado inmaduro de desarrollo. Finalmente están los proyectos que enlazan bibliotecas bastante conocidas y con una mayor madurez en su desarrollo, como GTK o Qt, lo cuales permiten desarrollos multiplataforma. Algunos proyectos populares
+                son los siguientes:</p>
+            <h3> gtk-rs </h3>
+            <p> Es una implementación de las bibliotecas de GTK 3 para el uso junto al lenguaje Rust. Para ello, crea funciones de Rust superpuestas a las funciones de las bibliotecas de GTK en C, haciendo uso de Foreign Function Interface que ofrece Rust.</p>
+            <h3> conrod</h3>
+            <p> Biblioteca de bajo nivel que hace uso de OpenGL o Vulkan.</p>
+        </section>
+        <section>
+            <h2>Proyectos de Rust</h2>
+            <h3> Navegador Web</h3>
+            <p> Se están escribiendo en Rust un navegador web y varios componentes relacionados, que incluyen:</p>
+            <ul>
+                <li>
+                    <a href="https://www.mozilla.org/es-ES/"> Firefox</a>
+                    <img src="multimedia/imagenes/logoFirefox.png" alt="Logo Firefox" />
+                    <ul>
+                        <li>Servo: motor de navegador web paralelo de Mozilla desarrollado en colaboración con Samsung</li>
+                        <li>Quantum : un proyecto, compuesto por varios subproyectos, para mejorar el motor del navegador web Gecko de Firefox, desarrollado por Mozilla</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Sistemas Operativos</h3>
+            <p>Muchos sistemas operativos (SO) y componentes relacionados se están escribiendo en Rust. A partir de enero de 2019, los sistemas operativos incluían: BlogOS, intermezzOS, QuiltOS, Redox, RustOS, Rux, Tefflin y Tock.</p>
+            <ul>
+                <li>Redox: Un micronucleo </li>
+                <li>Stratis: Un sistema de archivos para Fedora y RHEL 8.</li>
+            </ul>
+        </section>
+    </main>
+
+    <aside>
+        <p> Después de 1.0, las versiones de puntos estables se entregan cada seis semanas, mientras que las funciones se desarrollan en Rust todas las noches y luego se prueban con versiones alfa y beta que duran seis semanas.</p>
+        <p> Junto con la escritura estática convencional, antes de la versión 0.4, Rust también admitía typestates. El sistema typestate modeló aserciones antes y después de las sentencias del programa, mediante el uso de una checksentencia especial. Las discrepancias
+            se pueden descubrir en el momento de la compilación, en lugar de cuando se ejecuta un programa, como podría ser el caso de las aserciones en código C o C ++. El concepto typestate no era exclusivo de Rust, ya que se introdujo por primera vez en
+            el lenguaje NIL. Los typestates se eliminaron porque en la práctica se usaban poco, aunque la misma función aún se puede lograr con un patrón de marca.
+        </p>
+        <p>El estilo del sistema de objetos cambió considerablemente en las versiones 0.2, 0.3 y 0.4 de Rust. La versión 0.2 introdujo clases por primera vez, y la versión 0.3 agregó varias características, incluidos destructores y polimorfismo mediante el uso
+            de interfaces. En Rust 0.4, se agregaron rasgos como un medio para proporcionar herencia; las interfaces se unificaron con rasgos y se eliminaron como una característica separada. Las clases también se eliminaron, reemplazadas por una combinación
+            de implementaciones y tipos estructurados.</p>
+    
+        <p> Comenzando en Rust 0.9 y terminando en Rust 0.11, Rust tenía dos tipos de punteros incorporados: ~y @, simplificando el modelo de memoria central. Reimplementó esos tipos de puntero en la biblioteca estándar como Boxy (ahora eliminado) Gc.</p>
+            </aside>
+
+    <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
+    <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <footer>
+        <img src="multimedia/imagenes/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/imagenes/CSS3.png" alt="CSS Válido!" />
+    </footer>
+</body>
+
+</html>

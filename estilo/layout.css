@@ -1,0 +1,52 @@
+body { 
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #FFFAF0;
+    color: #7F7052;
+
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr;
+    grid-template-rows: 0.3fr 0.2fr 3.3fr 0.2fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "Menu  Menu"
+        "Header  Header"
+        "Content  Aside"
+        "Footer  Footer";
+}
+
+header {
+    grid-area: Header;
+}
+
+nav {
+    grid-area: Menu;
+}
+
+main {
+    grid-area: Content;
+}
+
+aside {
+    grid-area: Aside;
+    background-color: #7F7052;
+}
+
+footer { 
+    grid-area: Footer;
+}
+
+h1 {
+    color: #CCC8C0;
+    font-size: 3em;
+}
+
+h2 {
+    background-color: #7F7D78;
+    color: #FFE0A3;
+    font-size: 2em;
+}
+
+aside p {
+    color: #FFFAF0;
+}
