@@ -29,7 +29,7 @@ main {
 
 aside {
     grid-area: Aside;
-    background-color: #7F7052;
+    background-color: #7F7D78;
 }
 
 footer { 
@@ -37,7 +37,7 @@ footer {
 }
 
 h1 {
-    color: #CCC8C0;
+    color: #7F7052;
     font-size: 3em;
 }
 
