@@ -8,37 +8,30 @@ body {
     color: #7F7052;
 }
 
-/* 1 */
-h1 {
-    /* hereda backgroud-color de body */
-    color: #CCC8C0;
-    text-align: center;
-    font-size: 3em;
+/* 2 */
+nav a {
+    font-size: 1.3em;
 }
 
+/* 2 */
+footer a {
+    font-size: 1.1em;
+}
+/* 1 */
+h1 {
+    color: #7F7052;
+    font-size: 3em;
+}
 /* 1 */
 h2 {
     background-color: #7F7D78;
     color: #FFE0A3;
     font-size: 2em;
 }
-
-/* 1 */ 
-nav {
-    margin-left: 30em;
-    padding: 2em;
-}
 /* 2 */
-nav a {
-    color: brown;
-}
-/* 1 */
-ul{
-    font-size: 1.2em;
-}
-/* 1 */ 
-li {
-    font-size: 1em;
+aside p {
+    margin-left: 1em;
+    color: #7F7052;
 }
 /* 1 */
 form {

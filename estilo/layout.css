@@ -1,10 +1,6 @@
 /*Fernando Jose Gonzalez Sierra UO277938*/
 
 body { 
-    font-family: Verdana, Geneva, sans-serif;
-    background-color: #FFFAF0;
-    color: #7F7052;
-
     display: grid;
     grid-template-columns: 1.1fr 1.1fr;
     grid-template-rows: 0.3fr 0.2fr 3.3fr 0.2fr;
@@ -25,10 +21,7 @@ header {
 nav {
     grid-area: Menu;
 }
-/* 2 */
-nav a {
-    font-size: 1.3em;
-}
+
 /* 1 */
 main {
     grid-area: Content;
@@ -41,38 +34,5 @@ aside {
 footer { 
     grid-area: Footer;
 }
-/* 2 */
-footer a {
-    font-size: 1.1em;
-}
-/* 1 */
-h1 {
-    color: #7F7052;
-    font-size: 3em;
-}
-/* 1 */
-h2 {
-    background-color: #7F7D78;
-    color: #FFE0A3;
-    font-size: 2em;
-}
-/* 2 */
-aside p {
-    margin-left: 1em;
-    color: #7F7052;
-}
-/* 1 */
-form {
-    font-size: 1em;
-}
-/* 2 */
-table th{
-    color: #7F7052;
-    font-size: 1.5em;
-}
-/* 2 */
-table td{
-    color: #7F7052;
-    font-size: 1.2em;
-}
+
 
