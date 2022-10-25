@@ -50,3 +50,7 @@ h2 {
 aside p {
     color: white;
 }
+
+form {
+    font-size: 2em;
+}
