@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-    color: #7F7D78;
+    font-size: 1.3em;
 }
 
 main {
@@ -37,6 +37,10 @@ aside {
 
 footer { 
     grid-area: Footer;
+}
+
+footer a {
+    font-size: 1.1em;
 }
 
 h1 {
