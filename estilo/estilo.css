@@ -19,3 +19,34 @@ h2 {
     color: #FFE0A3;
     font-size: 2em;
 }
+
+nav {
+    margin-left: 30em;
+    padding: 2em;
+}
+
+nav a {
+    color: brown;
+}
+
+ul{
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1em;
+}
+
+form {
+    font-size: 1em;
+}
+
+table th{
+    color: #7F7052;
+    font-size: 1.5em;
+}
+
+table td{
+    color: #7F7052;
+    font-size: 1.2em;
+}

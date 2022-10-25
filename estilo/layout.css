@@ -23,13 +23,16 @@ nav {
     grid-area: Menu;
 }
 
+nav a {
+    color: #7F7D78;
+}
+
 main {
     grid-area: Content;
 }
 
 aside {
     grid-area: Aside;
-    background-color: #7F7D78;
 }
 
 footer { 
@@ -48,9 +51,21 @@ h2 {
 }
 
 aside p {
-    color: white;
+    margin-left: 1em;
+    color: #7F7052;
 }
 
 form {
     font-size: 1em;
 }
+
+table th{
+    color: #7F7052;
+    font-size: 1.5em;
+}
+
+table td{
+    color: #7F7052;
+    font-size: 1.2em;
+}
+

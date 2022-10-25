@@ -17,79 +17,8 @@ h2 {
     font-size: 2em;
 }
 
-
-/*a {
-    display: block;
+nav {
+    box-shadow: 5em 1em gold;
+    margin-left: 30em;
+    padding: 2em;
 }
-
-img {
-    justify-content: center;
-}*/
-
-
-/*Selecciona todos los párrafos*/
-
-
-/*Especificidad: 001*/
-/*
-p {
-    color: #7F7D78;
-}*/
-
-
-/*Selecciona los párrafos dentro de main*/
-
-
-/*Especificidad: 002
-
-main p {
-    color: #fff;
-    background-color: #74ff33;
-}*/
-
-
-/*Selecciona el párrafo que sea el primer hijo dentro de main*/
-
-
-/*Especificidad: 012
-
-main>p:first-child {
-    color: #fff;
-    background-color: #33ffdd;
-}*/
-
-
-/*Selecciona los párrafos de las secciones*/
-
-
-/*Especificidad: 001
-
-section p {
-    color: #fff;
-    background-color: #ee33ff;
-}
-*/
-
-
-/*Selecciona la última sección dentro de main*/
-
-
-/*Especificidad: 012
-
-main>section:last-of-type {
-    color: #fff;
-    background-color: #3336ff;
-}
-
-*/
-
-
-/*Selecciona el h2 de la última sección dentro de main*/
-
-
-/*Especificidad: 013
-
-main>section:last-of-type>h2 {
-    color: #fff;
-    background-color: #ff3333;
-}*/
